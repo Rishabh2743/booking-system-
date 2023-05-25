@@ -40,8 +40,8 @@ export class BookTicketComponent implements OnInit {
   public onSubmit(formValues: FormGroup): void {
     const userName: string = formValues.controls.name.value;
     const requiredSeats: number = parseInt(formValues.controls['count'].value);
-    if (requiredSeats > 6) {
-      this.error = 'Please enter seat number less then 8';
+    if (requiredSeats > 7) {
+      this.error = 'You Can only booked maximum 7 seat';
     } else if (requiredSeats > 0) {
       this.checkInCategorys(userName, requiredSeats);
     }

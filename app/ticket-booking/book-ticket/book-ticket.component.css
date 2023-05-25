@@ -11,7 +11,7 @@
 }
 
 .divide-category {
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 .seat-label {
@@ -31,25 +31,22 @@
 
 .seat {
   width: 20px;
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .selected {
-  background: #dfdfe461;
+  background: #18181a61;
 }
 .booked {
   background: #f42536;
 }
 
 .available {
-  background: green;
+  background: rgb(246, 248, 246);
 }
 
 .new-booking {
   clear: both;
   padding: 10px 0;
-}
-.conformation-container {
-  width: 300px;
-  margin: 0 auto;
+  text-align: center;
 }
