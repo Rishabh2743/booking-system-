@@ -4,4 +4,6 @@ p {
 .window {
   background-color: gray;
   text-align: center;
+  font-size: 22px;
+  font-family: 'Monospace';
 }
